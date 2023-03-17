@@ -1,5 +1,7 @@
 function gradeGenerator(){
+    // initialize a variable that receives input from the user in the form
     const num = document.getElementById("grade").value;
+    // check where the mark falls using the else...if condition
         if (num <40){
             document.getElementById("result").innerHTML="E";
         }else if(num >= 40 && num < 49){
