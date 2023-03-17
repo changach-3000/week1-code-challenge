@@ -8,13 +8,17 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
+    <!-- create container to hold the form for styling -->
     <div class="container">
     <form>
     <h1>Speed Detector</h1>
         <p>How fast are you going?</p>
+        <!-- creates an input field for the user to add input -->
         Speed: <input type="number" id ="speed"></br>
+        <!-- adds button that prompts the javascript implementation -->
         <input type="button" onClick="speedDetector()" value="Detect">
     </form>
+    <!-- prints out the result on the page -->
     <p>The Result is : <span id="result"></span>
     </p>
     </div>
