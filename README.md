@@ -33,8 +33,8 @@ Vscode or any othe IDE
 
 
 ## Author
-Chang'ach Sharon
-Github: @changach-3000
+- Chang'ach Sharon
+* Github: @changach-3000
 
 ## License
 
