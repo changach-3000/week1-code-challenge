@@ -8,16 +8,20 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
+    <div class = "container">
+    <form>
     <h1>Net Salary Calculator</h1>
         <p>What is your Net salary?</p>
-        Gross: <input type="number" id ="gross"></br>
-        NHIF : <input type="number" id="nhif"></br>
-        Payee Tax : <input type="number" id="payee"></br>
-        NSSF : <input type="number" id="nssf">
-
-        <input type="button" onClick="speedDetector()" value="Detect">
+        Basic: <input type="number" id ="basic"></br>
+        Benefits: <input type="number" id ="benefits"></input></br>
+        <input type="button" onClick="main" value="Calculate">
+         <p>Your Payee tax is : <span id="payee"></span></p>
+         <p>Your NHIF deduction is : <span id="nhif"></span></p>
+         <p>Your NSSF deduction is : <span id="nssf"></span></p>
+         <p>Your Net Salary is : <span id="net"></span></p>   
     
     </form>
+    </div>
 
     <script type="text/javascript" src="./index.js"></script>
     
