@@ -24,9 +24,6 @@ https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 
-# Cloning the project
-git clone 
-
 # Built with
 HTML/CSS
 JavaScript
