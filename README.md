@@ -34,7 +34,7 @@ Vscode or any othe IDE
 
 ## Author
 - Chang'ach Sharon
-* Github: @changach-3000
+* Github: [@changach-3000](https://github.com/changach-3000)
 
 ## License
 
